@@ -2,7 +2,7 @@
   "name": "@delucis/if-env",
   "version": "0.1.0",
   "description": "Simplify npm scripts with “if-env ... && npm run this || npm run that”",
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "repository": "delucis/if-env",
   "bugs": {
     "url": "https://github.com/delucis/if-env/issues"
