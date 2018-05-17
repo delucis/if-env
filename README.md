@@ -2,7 +2,7 @@
 
 > Simplify npm scripts with `if-env ... && npm run this || npm run that`
 
-This is a fork of Eric Clemmons’s [`if-env`](https://github.com/ericclemmons/if-env). It allows you to match environment variables using Sindre Sorhus’s [`matcher`](https://github.com/sindresorhus/matcher) rather than using simple string equality.
+This is a fork of Eric Clemmons’s [`if-env`](https://github.com/ericclemmons/if-env). It allows you to match environment variables using wildcards (`*` and `!`) rather than using simple string equality. See Sindre Sorhus’s [`matcher`](https://github.com/sindresorhus/matcher) for details about how the matching works.
 
 ## Installation
 
@@ -43,5 +43,13 @@ If you want to do different things depending on the value of a variable, you can
 ```json
 "scripts": {
   "joy": "if-env MOOD=!happy && echo 😭 || echo 😄"
+}
+```
+
+If you need to have spaces in your pattern, make sure you wrap it in escaped quotes:
+
+```json
+"scripts": {
+  "spacious": "if-env SENTENCE=\"I want * spaces.\" && echo $SENTENCE"
 }
 ```
