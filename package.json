@@ -1,6 +1,6 @@
 {
   "name": "@delucis/if-env",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Simplify npm scripts with “if-env ... && npm run this || npm run that”",
   "license": "GPL-3.0-only",
   "repository": "delucis/if-env",
