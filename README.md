@@ -1,5 +1,7 @@
 # @delucis/if-env
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/delucis/if-env.svg)](https://greenkeeper.io/)
+
 > Simplify npm scripts with `if-env ... && npm run this || npm run that`
 
 This is a fork of Eric Clemmons’s [`if-env`](https://github.com/ericclemmons/if-env). It allows you to match environment variables using wildcards (`*` and `!`) rather than using simple string equality. See Sindre Sorhus’s [`matcher`](https://github.com/sindresorhus/matcher) for details about how the matching works.
