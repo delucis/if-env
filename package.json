@@ -1,0 +1,40 @@
+{
+  "name": "@delucis/if-env",
+  "version": "0.0.1",
+  "description": "Simplify npm scripts with “if-env ... && npm run this || npm run that”",
+  "license": "MIT",
+  "repository": "delucis/if-env",
+  "bugs": {
+    "url": "https://github.com/delucis/if-env/issues"
+  },
+  "homepage": "https://github.com/delucis/if-env#readme",
+  "author": {
+    "name": "Chris Swithinbank",
+    "email": "swithinbank@gmail.com",
+    "url": "http://chrisswithinbank.net/"
+  },
+  "bin": {
+    "if-env": "bin/if-env.js"
+  },
+  "files": [
+    "bin/*"
+  ],
+  "scripts": {
+    "test": "NODE_ENV=test mocha",
+    "foo": "if-env VAR=foo* VAR=*oo* VAL=good && echo 😄 || echo 😭"
+  },
+  "keywords": [
+    "npm",
+    "script",
+    "env",
+    "if",
+    "run"
+  ],
+  "devDependencies": {
+    "expect": "22.4.3",
+    "mocha": "5.1.1"
+  },
+  "dependencies": {
+    "matcher": "^1.1.0"
+  }
+}
