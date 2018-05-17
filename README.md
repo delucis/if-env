@@ -1,6 +1,6 @@
 # @delucis/if-env
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/delucis/if-env.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.com/delucis/if-env.svg?branch=master)](https://travis-ci.com/delucis/if-env) [![Greenkeeper badge](https://badges.greenkeeper.io/delucis/if-env.svg)](https://greenkeeper.io/)
 
 > Simplify npm scripts with `if-env ... && npm run this || npm run that`
 
