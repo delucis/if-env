@@ -2,4 +2,4 @@
 
 const ifEnv = require('./core')
 
-ifEnv()
+ifEnv({ caseSensitive: true })

@@ -1,7 +1,7 @@
 {
   "name": "@delucis/if-env",
   "version": "1.0.0",
-  "description": "Simplify npm scripts with “if-env ... && npm run this || npm run that”",
+  "description": "Run an npm script if an environment variable matches a pattern",
   "license": "GPL-3.0-only",
   "repository": "delucis/if-env",
   "bugs": {
@@ -20,7 +20,8 @@
     "bin/*"
   ],
   "bin": {
-    "if-env": "bin/if-env.js"
+    "if-env": "bin/if-env.js",
+    "if-env-cs": "bin/if-env-cs.js"
   },
   "scripts": {
     "test": "NODE_ENV=test nyc mocha --reporter spec",
