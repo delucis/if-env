@@ -20,7 +20,8 @@
     "bin/*"
   ],
   "bin": {
-    "if-env": "bin/if-env.js"
+    "if-env": "bin/if-env.js",
+    "if-env-cs": "bin/if-env-cs.js"
   },
   "scripts": {
     "test": "NODE_ENV=test nyc mocha --reporter spec",
