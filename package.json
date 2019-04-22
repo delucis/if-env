@@ -41,6 +41,6 @@
     "nyc": "^11.8.0"
   },
   "dependencies": {
-    "matcher": "^1.1.1"
+    "matcher": "^2.0.0"
   }
 }
