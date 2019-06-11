@@ -1,6 +1,6 @@
 {
   "name": "@delucis/if-env",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Run an npm script if an environment variable matches a pattern",
   "license": "GPL-3.0-only",
   "repository": "delucis/if-env",
