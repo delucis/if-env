@@ -35,9 +35,9 @@
     "run"
   ],
   "devDependencies": {
-    "coveralls": "^3.0.4",
+    "coveralls": "^3.0.9",
     "expect": "25.1.0",
-    "mocha": "6.2.0",
+    "mocha": "7.0.1",
     "nyc": "^15.0.0"
   },
   "dependencies": {
